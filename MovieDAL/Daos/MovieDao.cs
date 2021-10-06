@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace MovieDAL.Daos
 {
-    public class MovieDao : IDao<Movie>
+    internal class MovieDao : IDao<Movie>
     {
         private static List<Movie> _movies = new()
         {
